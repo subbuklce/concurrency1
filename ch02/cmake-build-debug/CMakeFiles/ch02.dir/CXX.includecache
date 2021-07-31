@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/lamda_examples.h
+string
+-
+iostream
+-
+thread
+-
+functional
+-
+
+/home/subrahmanyam/CLionProjects/concurrency1/ch02/main.cpp
+lamda_examples.h
+/home/subrahmanyam/CLionProjects/concurrency1/ch02/lamda_examples.h
+
