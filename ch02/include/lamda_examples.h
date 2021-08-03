@@ -4,10 +4,7 @@
 
 #ifndef CH02_LAMDA_EXAMPLES_H
 #define CH02_LAMDA_EXAMPLES_H
-#include <string>
-#include <iostream>
-#include <thread>
-#include <functional>
+#include "headers.h"
 //lamda expression 1
 // lamda expression which returns true if string contains data in it.
 auto lamda1 = [](std::string_view str)->bool {

@@ -1,5 +1,7 @@
 
 #include "lamda_examples.h"
+#include "list2_3_RAII.h"
+#include "reference_parameters_to_thread.h"
 
 bool do_something(){
     std::cout<<"\n This function does something ::";
@@ -22,6 +24,9 @@ int main() {
     auto fobj2 = make_offset(25);
     std::cout<<"\n get the value of fobj1::"<<fobj1(10) <<"\t fobj2::"<< fobj2(10);
 
-    //lamda expression 3
+    //
+    list2_main_function();
+    //
+    reference_main_function();
     return 0;
 }
