@@ -87,6 +87,9 @@
 		<Unit filename="/home/subrahmanyam/CLionProjects/concurrency1/ch03/include/headers.h">
 			<Option target="ch03"/>
 		</Unit>
+		<Unit filename="/home/subrahmanyam/CLionProjects/concurrency1/ch03/include/list3.2_passingout_reference.h">
+			<Option target="ch03"/>
+		</Unit>
 		<Unit filename="/home/subrahmanyam/CLionProjects/concurrency1/ch03/main.cpp">
 			<Option target="ch03"/>
 		</Unit>

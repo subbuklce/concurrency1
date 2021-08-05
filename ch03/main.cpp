@@ -1,6 +1,6 @@
-#include <iostream>
+#include "list3.2_passingout_reference.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    list32_main_function();
     return 0;
 }

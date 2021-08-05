@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/headers.h
+iostream
+-
+thread
+-
+algorithm
+-
+mutex
+-
+thread
+-
+
+../include/list3.2_passingout_reference.h
+headers.h
+../include/headers.h
+
+/home/subrahmanyam/CLionProjects/concurrency1/ch03/main.cpp
+list3.2_passingout_reference.h
+/home/subrahmanyam/CLionProjects/concurrency1/ch03/list3.2_passingout_reference.h
+

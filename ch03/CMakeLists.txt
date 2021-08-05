@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD 17)
 
 include_directories(include)
 
-add_executable(ch03 main.cpp include/headers.h)
+add_executable(ch03 main.cpp include/headers.h include/list3.2_passingout_reference.h)
