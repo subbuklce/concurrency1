@@ -2,6 +2,7 @@
 #include "lamda_examples.h"
 #include "list2_3_RAII.h"
 #include "reference_parameters_to_thread.h"
+#include "listing_2.8.h"
 
 bool do_something(){
     std::cout<<"\n This function does something ::";
@@ -25,8 +26,13 @@ int main() {
     std::cout<<"\n get the value of fobj1::"<<fobj1(10) <<"\t fobj2::"<< fobj2(10);
 
     //
+    std::cout<<"\n list2_main_function";
     list2_main_function();
     //
+    std::cout<<"\n reference_main_function";
     reference_main_function();
+
+    std::cout<<"\n list2_8_main";
+    list2_8_main();
     return 0;
 }

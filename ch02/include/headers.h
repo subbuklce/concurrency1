@@ -9,4 +9,6 @@
 #include <thread>
 #include <functional>
 #include <vector>
+#include <algorithm>
+#include <numeric>
 #endif //CH02_HEADERS_H

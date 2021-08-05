@@ -17,10 +17,12 @@ void reference_main_function(){
     std::thread t1 (myfunction, std::ref(local_data));
     vector_of_threads.push_back(std::move(t1));
     std::cout<<"\n Call by value ::"<<local_data;
-
+/*
     std::for_each(vector_of_threads.begin(),vector_of_threads.end(),[](std::thread& t){
         if(t.joinable()){ t.join();};
     });
+    */
+    std::for_each(vector_of_threads.begin(), vector_of_threads.end(),std::mem_fn(&std::thread::join));
     std::cout<<"\n Call by value ::"<<local_data;
 }
 #endif //CH02_REFERENCE_PARAMETERS_TO_THREAD_H

@@ -90,6 +90,9 @@
 		<Unit filename="/home/subrahmanyam/CLionProjects/concurrency1/ch02/include/list2_3_RAII.h">
 			<Option target="ch02"/>
 		</Unit>
+		<Unit filename="/home/subrahmanyam/CLionProjects/concurrency1/ch02/include/listing_2.8.h">
+			<Option target="ch02"/>
+		</Unit>
 		<Unit filename="/home/subrahmanyam/CLionProjects/concurrency1/ch02/include/reference_parameters_to_thread.h">
 			<Option target="ch02"/>
 		</Unit>

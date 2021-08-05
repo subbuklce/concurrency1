@@ -17,12 +17,20 @@ functional
 -
 vector
 -
+algorithm
+-
+numeric
+-
 
 ../include/lamda_examples.h
 headers.h
 ../include/headers.h
 
 ../include/list2_3_RAII.h
+headers.h
+../include/headers.h
+
+../include/listing_2.8.h
 headers.h
 ../include/headers.h
 
@@ -37,4 +45,6 @@ list2_3_RAII.h
 /home/subrahmanyam/CLionProjects/concurrency1/ch02/list2_3_RAII.h
 reference_parameters_to_thread.h
 /home/subrahmanyam/CLionProjects/concurrency1/ch02/reference_parameters_to_thread.h
+listing_2.8.h
+/home/subrahmanyam/CLionProjects/concurrency1/ch02/listing_2.8.h
 
