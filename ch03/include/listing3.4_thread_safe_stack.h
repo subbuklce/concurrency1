@@ -57,7 +57,7 @@ void list_3_4_main_function(){
     Stack<int> d = s;
     int k =0;
     //s.pop(k);
-    s.pop(k);
+    //s.pop(k);
     std::shared_ptr<int> l = s.pop();
 }
 
