@@ -17,12 +17,28 @@ mutex
 -
 thread
 -
+vector
+-
+string
+-
+stack
+-
+memory
+-
+exception
+-
 
 ../include/list3.2_passingout_reference.h
+headers.h
+../include/headers.h
+
+../include/listing3.4_thread_safe_stack.h
 headers.h
 ../include/headers.h
 
 /home/subrahmanyam/CLionProjects/concurrency1/ch03/main.cpp
 list3.2_passingout_reference.h
 /home/subrahmanyam/CLionProjects/concurrency1/ch03/list3.2_passingout_reference.h
+listing3.4_thread_safe_stack.h
+/home/subrahmanyam/CLionProjects/concurrency1/ch03/listing3.4_thread_safe_stack.h
 

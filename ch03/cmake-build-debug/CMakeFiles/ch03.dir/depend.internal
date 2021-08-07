@@ -4,4 +4,5 @@
 CMakeFiles/ch03.dir/main.cpp.o
  ../include/headers.h
  ../include/list3.2_passingout_reference.h
+ ../include/listing3.4_thread_safe_stack.h
  /home/subrahmanyam/CLionProjects/concurrency1/ch03/main.cpp

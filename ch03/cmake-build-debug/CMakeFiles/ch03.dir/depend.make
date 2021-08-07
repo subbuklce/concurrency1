@@ -3,5 +3,6 @@
 
 CMakeFiles/ch03.dir/main.cpp.o: ../include/headers.h
 CMakeFiles/ch03.dir/main.cpp.o: ../include/list3.2_passingout_reference.h
+CMakeFiles/ch03.dir/main.cpp.o: ../include/listing3.4_thread_safe_stack.h
 CMakeFiles/ch03.dir/main.cpp.o: ../main.cpp
 

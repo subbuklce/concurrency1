@@ -9,6 +9,10 @@
 #include <algorithm>
 #include <mutex>
 #include <thread>
-
+#include <vector>
+#include <string>
+#include <stack>
+#include <memory>
+#include <exception>
 
 #endif //CH03_HEADERS_H
