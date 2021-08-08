@@ -14,5 +14,7 @@
 #include <stack>
 #include <memory>
 #include <exception>
+#include <string_view>
+#include <algorithm>
 
 #endif //CH03_HEADERS_H
