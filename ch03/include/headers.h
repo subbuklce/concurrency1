@@ -16,5 +16,9 @@
 #include <exception>
 #include <string_view>
 #include <algorithm>
+#include <string_view>
+#include <utility>
+#include <chrono>
+#include <future>
 
 #endif //CH03_HEADERS_H

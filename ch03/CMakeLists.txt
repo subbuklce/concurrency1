@@ -8,4 +8,8 @@ include_directories(include)
 add_executable(ch03 main.cpp include/headers.h 
                 include/list3.2_passingout_reference.h 
                 include/listing3.4_thread_safe_stack.h 
-                include/listing3.5_swap_lock.h)
+                include/listing3.5_swap_lock.h
+                include/singleton_implementations.h)
+
+
+target_link_libraries(ch03 pthread)

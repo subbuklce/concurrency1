@@ -2,7 +2,7 @@
 #include "listing3.4_thread_safe_stack.h"
 #include "deadlock_free_mutex.h"
 #include "unique_lock_mutex.h"
-
+#include "singleton_implementations.h"
 int main() {
     list32_main_function();
     std::cout<<"\n listing 3.4 main function";
@@ -14,7 +14,8 @@ int main() {
     std::cout<<"\n trasfer_mutex_main_function";
     trasfer_mutex_main_function();
 
-
+    std::cout<<"\n singleton_main_function";
+    singleton_main_function();
 
     return 0;
 

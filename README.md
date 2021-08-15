@@ -16,4 +16,5 @@ std::lock_guard<std::mutex> lg - To care of mutex with RAII - Resource Aquisitio
 std::adopt_lock - Transfer the ownership to other variable only
 std::defer_lock - can use unique_lock at initialization
 std::unique_lock - owns_lock(), intention is to transfer the owndership of lock in between various instances.
+std::call_once(std::init_once, &x::function_name, object)
 
