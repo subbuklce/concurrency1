@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+../include/future_promise_packaged_task.hpp
+headers.h
+../include/headers.h
+
 ../include/headers.h
 iostream
 -
@@ -29,6 +33,8 @@ deque
 -
 utility
 -
+algorithm
+-
 
 ../include/listing4.7async.hpp
 headers.h
@@ -37,6 +43,14 @@ headers.h
 ../include/listing4.9packaged_task.hpp
 headers.h
 ../include/headers.h
+
+../include/quicksort_iterators.h
+headers.h
+../include/headers.h
+numeric
+-
+list
+-
 
 ../include/threadsafe_queue.hpp
 headers.h
@@ -49,4 +63,8 @@ listing4.7async.hpp
 /home/subrahmanyam/CLionProjects/concurrency1/ch04/listing4.7async.hpp
 listing4.9packaged_task.hpp
 /home/subrahmanyam/CLionProjects/concurrency1/ch04/listing4.9packaged_task.hpp
+future_promise_packaged_task.hpp
+/home/subrahmanyam/CLionProjects/concurrency1/ch04/future_promise_packaged_task.hpp
+quicksort_iterators.h
+/home/subrahmanyam/CLionProjects/concurrency1/ch04/quicksort_iterators.h
 
